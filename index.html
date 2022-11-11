@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-shirt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="form-wrapper">
+      <h1>T-shirt-form</h1>
+      <div class="flex-container">
+        <label for="fname">What is the customer's name?</label>
+        <input required="required" type="text" id="fname" name="fname" />
+      </div>
+      <div class="flex-container">
+        <label for="fname">What is the customer's email?</label>
+        <input required="required" type="text" id="fname" name="fname" />
+      </div>
+      <div>
+        <fieldset>
+        <legend>What colour should this t-shirt be?</legend>
+        <input type="radio" id="orange" name="color" value="orange" />
+        <label for="orange">Orange</label><br />
+        <input type="radio" id="blue" name="color" value="blue" />
+        <label for="blue">Blue</label><br />
+        <input type="radio" id="black" name="color" value="black"/>
+        <label for="black">Black</label>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+        <legend>What size does the customer want?</legend>
+        <input type="radio" id="xs" name="size" value="xs" />
+        <label for="xs">XS</label><br />
+        <input type="radio" id="s" name="size" value="s" />
+        <label for="s">S</label><br />
+        <input type="radio" id="m" name="size" value="m"/>
+        <label for="m">M</label><br />
+        <input type="radio" id="l" name="size" value="l" />
+        <label for="l">L</label><br />
+        <input type="radio" id="xl" name="size" value="xl" />
+        <label for="xl">XL</label><br />
+        <input type="radio" id="xxl" name="size" value="xxl"/>
+        <label for="xxl">XXL</label>
+        </fieldset>
+      </div>
+      <div>
+        <label for="start">When do they want the t-shirt to be delivered?</label>
+        <input type="date" id="start" name="trip-start" value="2022-07-22"
+       min="2022-01-01" max="2022-12-31">
+      </div>
+
+    </form>
+  </body>
+</html>
